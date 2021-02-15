@@ -1,8 +1,5 @@
 <?php 
-define("hallo", "Hallo wereld"); 
-
-$halloW = "Learning PHP";
-$halloW = "Hallo Wereld";
+$array = ['Hello ', 'world!'];
 ?>
 
 <!DOCTYPE html>
@@ -14,6 +11,11 @@ $halloW = "Hallo Wereld";
     <title>Document</title>
 </head>
 <body>
-    <h1><?php echo $halloW; ?></h1>
+    <h1>
+    <?php 
+    echo $array[0];
+    echo $array[1];
+    ?>
+    </h1>
 </body>
 </html>
