@@ -1,3 +1,6 @@
+<?php 
+define("hallo", "Hallo wereld"); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +10,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h1><?php echo "Hallo Wereld"; ?></h1>
+    <h1><?php echo hallo; ?></h1>
 </body>
 </html>
