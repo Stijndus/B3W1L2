@@ -1,5 +1,9 @@
 <?php 
-define("hallo", "Hallo wereld"); ?>
+define("hallo", "Hallo wereld"); 
+
+$halloW = "Learning PHP";
+$halloW = "Hallo Wereld";
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -10,6 +14,6 @@ define("hallo", "Hallo wereld"); ?>
     <title>Document</title>
 </head>
 <body>
-    <h1><?php echo hallo; ?></h1>
+    <h1><?php echo $halloW; ?></h1>
 </body>
 </html>
